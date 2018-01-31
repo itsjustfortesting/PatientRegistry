@@ -17,7 +17,6 @@ public class Users {
 
     @Column(name = "username")
     @Size(min = 2, message = "too short")
-    @ValidUsername
     private String username;
 
     @NotNull(message = "is required")
