@@ -27,10 +27,15 @@
             <td>Last name:</td>
             <td><form:input path="lastName"/><form:errors path="lastName"/></td>
         </tr>
-        <c:if test="${formerror != null}">
+        <c:if test="${formerror == 'duplicate'}">
         <tr>
-            <td colspan="2" align="center"><div style="color: red">Something went wrong</div></td>
+            <td colspan="2" align="center"><div style="color: red">Username already exists</div></td>
         </tr>
+        </c:if>
+        <c:if test="${formerror == 'other'}">
+            <tr>
+                <td colspan="2" align="center"><div style="color: red">Something went wrong</div></td>
+            </tr>
         </c:if>
         <tr>
             <td colspan="2" align="center"><input type="submit" value="Create user"></td>

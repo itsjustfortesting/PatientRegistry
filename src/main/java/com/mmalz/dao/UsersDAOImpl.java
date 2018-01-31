@@ -32,7 +32,6 @@ public class UsersDAOImpl implements UsersDAO {
 
     @Override
     public Users getUser(String username) {
-        //TODO Change this
         Session session = sessionFactory.getCurrentSession();
         List<Users> userList= session.createQuery("from Users where username = :username").setParameter("username", username).getResultList();
         if (userList.size() > 0) {

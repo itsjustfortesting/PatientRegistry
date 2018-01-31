@@ -1,75 +1,127 @@
-.form-style-8 {
-    font-family: 'Open Sans Condensed', arial, sans;
-    width: 500px;
-    padding: 30px;
-    background: #FFFFFF;
-    margin: 50px auto;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+/*******************************************************
+TITLE: Fixed Box Layout  V1.0
+DATE: 20060809
+AUTHOR: The CSS Tinderbox - http://www.csstinderbox.com
+*******************************************************/
+
+body {
+margin:3em;
+padding:0;
+height:100%;
+background-color:#ffffff;
+color:#000000;  
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
 }
 
-.form-style-8 h2 {
-    background: #4D4D4D;
-    text-transform: uppercase;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #797979;
-    font-size: 18px;
-    font-weight: 100;
-    padding: 20px;
-    margin: -30px -30px 30px -30px;
+a {
+color:#cc0000;
+text-decoration:underline;
 }
 
-.form-style-8 input[type="text"],
-.form-style-8 input[type="date"],
-.form-style-8 input[type="datetime"],
-.form-style-8 input[type="email"],
-.form-style-8 input[type="number"],
-.form-style-8 input[type="search"],
-.form-style-8 input[type="time"],
-.form-style-8 input[type="url"],
-.form-style-8 input[type="password"],
-.form-style-8 textarea,
-.form-style-8 select {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    outline: none;
-    display: block;
-    width: 100%;
-    padding: 7px;
+a:hover {
+color:#eeeeee;
+text-decoration:none;
+}
+
+blockquote {
+margin:1em;
+padding:.5em;
+background-color:#eeeeee;
+border-top:1px solid #cccccc;
+border-bottom:1px solid #cccccc;
+}
+
+blockquote p {
+margin:.2em;
+}
+
+#centerColumn { 	
+margin:0 auto;
+padding:1em;
+width:38em;
+text-align:left;
+vertical-align: middle;	
+background-color:#cccccc;
+border:1px solid #999999;
+}
+
+#centerColumn h2 {
+margin:0 0 -.5em 0;
+padding:.75em 0 0 0;
+font-size:1em;
+letter-spacing:.1em;
+}
+
+#header {
+margin:-1em -1em 0 -1em;
+padding:0 0 0 0;
+height:6em;
+background-color:#ffffff;
+}
+
+#header h1 {
+margin:0 0 -.6em 0;
+padding:.5em 0 0 1em;
+font-size:1.5em;
+letter-spacing:.1em;
+}
+
+#header h2 {
+margin:0 0 0 0;
+padding:1em 0 0 1.75em;
+font-size:.9em;
+font-weight:300;
+letter-spacing:.1em;
+}
+
+#nav {
+margin:0 0 1em 0;
+padding:.4em 0 0 0;
+}
+
+#nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#nav li {
+margin:0;
+padding:.25em;
+display:inline;
+}
+
+#footer {
+position:relative;
+bottom:0;
+margin:5em 0 0 0;
+padding:0;
+height:4em;
+line-height:4em;
+text-align:center;
+font-size:.7em;
+background-color:#cccccc;
+border-top:1px solid #999999;
+}
+
+.linkButton {
+    background: none;
     border: none;
-    border-bottom: 1px solid #ddd;
-    background: transparent;
-    margin-bottom: 10px;
-    font: 16px Arial, Helvetica, sans-serif;
-    height: 45px;
-}
-
-.form-style-8 textarea {
-    resize: none;
-    overflow: hidden;
-}
-
-.form-style-8 input[type="button"],
-.form-style-8 input[type="submit"] {
-    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-    box-shadow: inset 0px 1px 0px 0px #45D6D6;
-    background-color: #2CBBBB;
-    border: 1px solid #27A0A0;
-    display: inline-block;
+    color: #0066ff;
+    text-decoration: underline;
     cursor: pointer;
-    color: #FFFFFF;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 14px;
-    padding: 8px 18px;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
-.form-style-8 input[type="button"]:hover,
-.form-style-8 input[type="submit"]:hover {
-    background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-    background-color: #34CACA;
-}
+
+
+
+
+
+
+
+
+
+
+
