@@ -1,16 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: mmalz
-  Date: 01.02.2018
-  Time: 06:58
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css"/>
-</head>
 <body>
-
+<div id="centerColumn">
+    <div id="header">
+    <h1>Patient Registration Service</h1>
+    <h2>You are logged as: <b><security:authentication property="principal.username"/></b><br>
+    <form:form action="${pageContext.request.contextPath}/logout" method="post"><a href="${pageContext.request.contextPath}/user-settings" class="userButton">Settings</a> | <button type="submit" class="userButton">Logout</button></form:form></h2>
+    </div>
 </body>
 </html>

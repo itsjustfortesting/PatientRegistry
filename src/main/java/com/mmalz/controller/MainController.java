@@ -17,7 +17,7 @@ public class MainController {
 
     @RequestMapping("/")
     public String showMainPage() {
-        return "main/main_page";
+        return "main/main-page";
     }
 
     @RequestMapping("/user-settings")
