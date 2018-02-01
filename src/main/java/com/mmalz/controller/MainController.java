@@ -20,4 +20,8 @@ public class MainController {
         return "main/main_page";
     }
 
+    @RequestMapping("/user-settings")
+    public String showUserSettings() {
+        return "user-settings";
+    }
 }

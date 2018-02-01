@@ -106,15 +106,18 @@ background-color:#cccccc;
 border-top:1px solid #999999;
 }
 
-.linkButton {
+.userButton {
     background: none;
     border: none;
-    color: #0066ff;
     text-decoration: underline;
     cursor: pointer;
+    color:#cc0000;
 }
 
-
+.userButton:hover {
+    color:deeppink;
+    text-decoration:none;
+}
 
 
 
